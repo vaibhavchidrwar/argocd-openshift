@@ -18,7 +18,7 @@ spec:
         app: bubble-animation
     spec:
       containers:
-      - image: quay.io/rhdevelopers/bgd:1.0.0
+      - image: quay.io/rhdevelopers/bgd
         name: bubble-animation
         env:
         - name: COLOR
